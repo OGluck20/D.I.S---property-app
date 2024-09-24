@@ -1,0 +1,103 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIS - estate app</title>
+
+    <!-- link style.css -->
+     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- link bootstrap -->
+     <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+     <link rel="stylesheet" href="assets/vendor/bootstrap/js/bootstrap.js">
+    
+    <!-- link bootstrap icon -->
+     <link rel="stylesheet" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left-hdr">
+            <h1>D.I.S</h1>
+        </div>
+        <div class="right-hdr">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About us</li>
+                    <li>Sell</li>
+                    <li>Buy</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <aside class="aside">
+
+    </aside>
+    <main class="main">
+        <div class="Home" id="Home">
+            <h1>D.I.S Real estate Company</h1>
+            <p>Geared to building dream home and reliable investment , collaborate with us today to start exploring real estate</p>
+            <button class="explore-btn">explore</button>
+        </div>
+        <div class="Available-plots">
+            <h1>Available Properties</h1>
+            <div class="uploaded-properties">
+                <i class="bi" id="status"></i>
+                <div class="property-div">
+                    <div class="image">
+                        <img src="assets/images.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <p>address:<p id="address">----</p></p>
+                        <p>Asking price:<p id="asking-price">-----</p></p>
+                        <p>C of O: <input type="checkbox" name="" id=""></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Upload-plot">
+            <h1 class="title">Upload Your Property</h1>
+            <div class="upload-container">
+                <div class="plot-details">
+                    <label for="Address">Address :</label><input type="text" class="input" name="Address" id="Address" required>
+                    <label for="Price">Asking price :</label><input type="text" class="input" name="price" id="price" required>
+                    <label for="CertificateOfOwnership">C of O :<input type="checkbox" class="checkbox" name="CertificateOfOwnership" id="CertificateOfOwnership" required></label>
+                    <label for="landsurvey">land survey :<input type="checkbox" class="checkbox" name="landsurvey" id="landsurvey" required></label>
+                </div>
+                <div class="container">
+                    <p>Note: drag and drop property image here.</p>
+                    <div class="drag-drop-area" id="dragDropArea">
+                        <p>Drag & Drop your files here</p>
+                    </div>
+                    <div id="output"></div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <div class="CEO">
+                <img src="assets/About-img.jpg" alt="ceo-image" class="ceo-image">
+                <div class="CEO-details">
+                    <h3>Dr surveyor Daniel Ifeoluwa Samuel</h3>
+                    <h3>chief executive officer</h3>
+                </div>
+                <div class="social-links">
+                    <ul>
+                        <li class="bi bi-facebook"></li>
+                        <li class="bi bi-instagram"></li>
+                        <li class="bi bi-twitter"></li>
+                        <li class="bi bi-whatsapp"></li>
+                        <li class="bi bi-linkedin"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>copyrights © 2024</p>
+        <p>credit: D.I.S</p>
+        <p>designer: <a href="">OG luck</a></p>
+    </footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

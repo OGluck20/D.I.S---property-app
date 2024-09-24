@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+ display: flex;
+ flex-direction: row;
+ padding: 10px 40px;
+ justify-content: space-between;
+ background-color: #ffff3f;
+}
+
+.header .right-hdr nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin: 20px 30px;
+}
+
+.header .right-hdr nav ul li{
+    list-style: none;
+}
+
+/* aside style  media small screen*/
+
+.aside{
+
+}
+
+/* main style */
+.main .Home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  height: 85vh;
+  color: #fff;
+  background-image: url(../images.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main .Home h1 , p{
+    text-align: center;
+}
+
+.main .Home button{
+    display: flex;
+    margin: 10px auto;
+    width: 30%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffff3f;
+}
+
+.upload-plot{
+    background-color: #ffff3f;
+    padding: 30px 50px;
+    justify-content: space-between;
+}
+
+.upload-plot .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.upload-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.upload-container .plot-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.upload-container .plot-details .input{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 230px;
+}
+
+.upload-container .plot-details .checkbox{
+    margin-left: 10px;
+}
+
+.Available-plots{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    row-gap: 30px;
+}
+
+.uploaded-properties{
+ display: flex;
+ justify-content: space-between;
+ margin: 0 auto;
+}
+
+.property-div{
+    display: flex;
+    flex-direction: row;
+    gap: 30vh;
+    border: 2px solid #ffff3f;
+    padding: 20px 50px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.property-div img{
+    width: 400px;
+    aspect-ratio: 2;
+}
+
+.container {
+    text-align: center;
+}
+
+.drag-drop-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    width: 300px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.drag-drop-area p {
+    margin: 10px 0;
+}
+
+#fileInput {
+    display: none;
+}
+
+#output {
+    margin-top: 20px;
+}
+
+#output img {
+    max-width: 100%;
+    height: auto;
+}
+
+.CEO{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.CEO .social-links ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.CEO .social-links ul li:hover{
+    color: #ffff3f;
+}
+
+.ceo-image{
+    width: 200px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+}
+
+footer{
+    background-color: #ffff3f;
+    text-align: center;
+    margin-bottom: -20px;
+    padding: 20px 10px;
+}
+
+footer p:not(:first-child){
+    margin-top: -5px;
+}
